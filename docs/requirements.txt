@@ -44,3 +44,4 @@ tornado==6.4
 urllib3==2.0.4
 # wget==3.2
 # yarg==0.1.9
+sphinxemoji==0.3.1

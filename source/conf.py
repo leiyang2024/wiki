@@ -30,6 +30,7 @@ html_static_path = ['_static']
 
 extensions = [
      'recommonmark',
-     'sphinx_markdown_tables'
+     'sphinx_markdown_tables',
+     'sphinxemoji.sphinxemoji',
  ]
 

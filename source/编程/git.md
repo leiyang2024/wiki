@@ -2,7 +2,7 @@
  
 ## 常用命令
 
-初始化设置
+### 初始化设置
 
 ```
 echo "# wiki" >> README.md
@@ -13,6 +13,19 @@ git branch -M main
 git remote add origin https://github.com/leiyang2024/wiki.git
 git push -u origin main
 ```
+
+### 配置
+
+- 查看git配置信息
+    ```
+    git config -l
+    ```
+
+- 设置git配置信息
+    ```
+    git config --global user.name 'lei'
+    git config --global user.email 'lei@163.com'
+    ```
 
 ## 一些有用的设置
 - 设置不同步项，一些大文件等内容，通常不需要同步
